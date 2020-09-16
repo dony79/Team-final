@@ -15,6 +15,6 @@
 
 
 3. 이벤트스토밍
-https://github.com/awslv2flower/Team-final/issues/1#issue-702360445
+<img width="1920" alt="스크린샷 2020-09-16 오전 8 56 38" src="https://user-images.githubusercontent.com/29944530/93278534-ee013880-f7ff-11ea-8787-86510a5ddacc.png">
 
 4. 시현
