@@ -15,7 +15,6 @@
 
 
 3. 이벤트스토밍
-
-
+https://github.com/awslv2flower/Team-final/issues/1#issue-702360445
 
 4. 시현
