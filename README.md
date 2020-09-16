@@ -31,26 +31,23 @@
 5. cancel하기
 - http PATCH http://a0b3b3575651b4e85922eb5bcb5840cf-455819388.ap-northeast-2.elb.amazonaws.com:8080/orders/1 status="OrderCancelled"
 
-6. seige 테스트
-- siege -c50 -t30S  -v --content-type "application/json" 'http://order:8080/orders POST {"flowerName":"AAAA","qty":5}'
-
-7. CI/CD 구현
+6. CI/CD 구현
 - buildspec, codebuild 적용
 ![buildspec](https://user-images.githubusercontent.com/60597630/93287560-c9638b80-f814-11ea-9c9b-f5ac701809e6.JPG)
 ![cicd](https://user-images.githubusercontent.com/60597630/93287562-ca94b880-f814-11ea-8d12-81127393512e.JPG)
 
-8. circuit breaker 적용
+7. circuit breaker 적용
 - siege -c50 -t30S  -v --content-type "application/json" 'http://order:8080/orders POST {"flowerName":"AAAA","qty":5}' 으로 테스트
 ![circuit breaker](https://user-images.githubusercontent.com/60597630/93287119-ac7a8880-f813-11ea-8df0-25ea88183f27.JPG)
 
-9. autoscale 적용
+8. autoscale 적용
 - pod 1개
 ![autoscale-before](https://user-images.githubusercontent.com/60597630/93286459-45a89f80-f812-11ea-92ff-c260ea110bbe.JPG)
 - 부하 발생시 pod 2개로 증가
 ![autoscale-after](https://user-images.githubusercontent.com/60597630/93286455-45100900-f812-11ea-921f-8080af36f499.JPG)
 
-10. Jaeger 모니터링 적용 (http://a754bd45eff4d4b72af3ccbf2987bf6c-1373967310.ap-northeast-2.elb.amazonaws.com:16686)
+9. Jaeger 모니터링 적용 (http://a754bd45eff4d4b72af3ccbf2987bf6c-1373967310.ap-northeast-2.elb.amazonaws.com:16686)
 ![jaeger](https://user-images.githubusercontent.com/60597630/93286820-09297380-f813-11ea-8938-782a1ae0981c.JPG)
 
-11. Kiali 모니터링 적용 (http://ae72f8a7283174456888fb7236a765e9-1825562489.ap-northeast-2.elb.amazonaws.com:20001)
+10. Kiali 모니터링 적용 (http://ae72f8a7283174456888fb7236a765e9-1825562489.ap-northeast-2.elb.amazonaws.com:20001)
 ![kiari](https://user-images.githubusercontent.com/60597630/93286819-07f84680-f813-11ea-832b-002d18e7c4bb.JPG)
