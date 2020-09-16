@@ -15,14 +15,12 @@
 # 이벤트스토밍
 <img width="1920" alt="스크린샷 2020-09-16 오전 8 56 38" src="https://user-images.githubusercontent.com/29944530/93278534-ee013880-f7ff-11ea-8787-86510a5ddacc.png">
 
-![order 캡쳐](https://user-images.githubusercontent.com/60597630/93294322-2109f300-f825-11ea-983a-75d9d47b34eb.JPG)
-![order 캡쳐2](https://user-images.githubusercontent.com/60597630/93294330-223b2000-f825-11ea-94f4-fce9b5ac5af2.JPG)
-
-
-
 # 시연
 1. order 하기
 - http http://ab399056093b4495f9f7940d3e95c4f9-305412969.ap-northeast-2.elb.amazonaws.com:8080/orders flowerName=Rose qty=7 address=seoul customerName=lee phoneNumber=01012341234
+
+![order 캡쳐](https://user-images.githubusercontent.com/60597630/93294322-2109f300-f825-11ea-983a-75d9d47b34eb.JPG)
+![order 캡쳐2](https://user-images.githubusercontent.com/60597630/93294330-223b2000-f825-11ea-94f4-fce9b5ac5af2.JPG)
 
 2. delivery 확인
 - http http://ab399056093b4495f9f7940d3e95c4f9-305412969.ap-northeast-2.elb.amazonaws.com:8080/deliveries
