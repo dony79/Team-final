@@ -17,17 +17,17 @@
 1. order 하기
 - http http://a0b3b3575651b4e85922eb5bcb5840cf-455819388.ap-northeast-2.elb.amazonaws.com:8080/orders flowerName=Rose qty=7 address=seoul customerName=lee phoneNumber=01012341234
 
-1. delivery 확인
+2. delivery 확인
 - http http://a0b3b3575651b4e85922eb5bcb5840cf-455819388.ap-northeast-2.elb.amazonaws.com:8080/deliveries
 
-1. orderdetail view 실행
+3. orderdetail view 실행
 
-1. shipped 하기
+4. shipped 하기
 - http PATCH http://a0b3b3575651b4e85922eb5bcb5840cf-455819388.ap-northeast-2.elb.amazonaws.com:8080/deliveries/2 status="DeliveryStart"
 
-1. mypage 실행
+5. mypage 실행
 - http http://a0b3b3575651b4e85922eb5bcb5840cf-455819388.ap-northeast-2.elb.amazonaws.com:8080/mypages
 
-1. cancel하기
+6. cancel하기
 - http PATCH http://a0b3b3575651b4e85922eb5bcb5840cf-455819388.ap-northeast-2.elb.amazonaws.com:8080/orders/1 status="OrderCancelled"
 
