@@ -17,6 +17,10 @@
 
 ![feignclient 캡처](https://user-images.githubusercontent.com/60597630/93294171-c7a1c400-f824-11ea-940b-2b9af777f7d1.JPG)
 
+- order 입력 수행
+![order 캡쳐](https://user-images.githubusercontent.com/60597630/93294322-2109f300-f825-11ea-983a-75d9d47b34eb.JPG)
+![order 캡쳐2](https://user-images.githubusercontent.com/60597630/93294330-223b2000-f825-11ea-94f4-fce9b5ac5af2.JPG)
+
 
 # 시연
 1. order 하기
