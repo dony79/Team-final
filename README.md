@@ -29,13 +29,12 @@
 5. cancel하기
 - http PATCH http://a0b3b3575651b4e85922eb5bcb5840cf-455819388.ap-northeast-2.elb.amazonaws.com:8080/orders/1 status="OrderCancelled"
 
-
 6. seige 테스트
-- (httpie 실행) kubectl exec -it pod/httpie -n istio-cb-ns -c httpie -- /bin/bash
-- (siege 실행 넣기) siege -c100 -t30S -v --content-type "application/json" 'http://order:8080/orders POST {"flowerName":"AAAA","qty":5}'
+- siege -c50 -t30S  -v --content-type "application/json" 'http://order:8080/orders POST {"flowerName":"AAAA","qty":5}'
 
 7. circuit breaker 적용
--
+- siege -c50 -t30S  -v --content-type "application/json" 'http://order:8080/orders POST {"flowerName":"AAAA","qty":5}' 으로 테스트
+![circuit breaker](https://user-images.githubusercontent.com/60597630/93287119-ac7a8880-f813-11ea-8df0-25ea88183f27.JPG)
 
 8. autoscale 적용
 - pod 1개
