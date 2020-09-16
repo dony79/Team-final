@@ -35,6 +35,7 @@
 - http PATCH http://ab399056093b4495f9f7940d3e95c4f9-305412969.ap-northeast-2.elb.amazonaws.com:8080/orders/1 status="OrderCancelled"
 
 6.Feingclient
+
 ![feignclient 캡처](https://user-images.githubusercontent.com/60597630/93294171-c7a1c400-f824-11ea-940b-2b9af777f7d1.JPG)
 
 7. CI/CD, readiness/liveness 구현
