@@ -31,7 +31,7 @@
 5. cancel하기
 - http PATCH http://a0b3b3575651b4e85922eb5bcb5840cf-455819388.ap-northeast-2.elb.amazonaws.com:8080/orders/1 status="OrderCancelled"
 
-6. CI/CD 구현
+6. CI/CD, readiness/liveness 구현
 - buildspec, codebuild 적용
 ![buildspec](https://user-images.githubusercontent.com/60597630/93287560-c9638b80-f814-11ea-9c9b-f5ac701809e6.JPG)
 ![cicd](https://user-images.githubusercontent.com/60597630/93287562-ca94b880-f814-11ea-8d12-81127393512e.JPG)
