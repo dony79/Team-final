@@ -20,23 +20,21 @@
 2. delivery 확인
 - http http://a0b3b3575651b4e85922eb5bcb5840cf-455819388.ap-northeast-2.elb.amazonaws.com:8080/deliveries
 
-3. orderdetail view 실행
-
-4. shipped 하기
+3. shipped 하기
 - http PATCH http://a0b3b3575651b4e85922eb5bcb5840cf-455819388.ap-northeast-2.elb.amazonaws.com:8080/deliveries/2 status="DeliveryStart"
 
-5. mypage 실행
+4. mypage 실행
 - http http://a0b3b3575651b4e85922eb5bcb5840cf-455819388.ap-northeast-2.elb.amazonaws.com:8080/mypages
 
-6. cancel하기
+5. cancel하기
 - http PATCH http://a0b3b3575651b4e85922eb5bcb5840cf-455819388.ap-northeast-2.elb.amazonaws.com:8080/orders/1 status="OrderCancelled"
 
 
-7. seige 테스트
+6. seige 테스트
 - (httpie 실행) kubectl exec -it pod/httpie -n istio-cb-ns -c httpie -- /bin/bash
 - (siege 실행 넣기) siege -c100 -t30S -v --content-type "application/json" 'http://order:8080/orders POST {"flowerName":"AAAA","qty":5}'
 
-8. Jaeger / Kiali 모니터링 
+7. Jaeger / Kiali 모니터링 
 - Jaeger
 http://a754bd45eff4d4b72af3ccbf2987bf6c-1373967310.ap-northeast-2.elb.amazonaws.com:16686
 - Kiali
