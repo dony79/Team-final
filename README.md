@@ -17,19 +17,19 @@
 
 # 시연
 1. order 하기
-- http http://a0b3b3575651b4e85922eb5bcb5840cf-455819388.ap-northeast-2.elb.amazonaws.com:8080/orders flowerName=Rose qty=7 address=seoul customerName=lee phoneNumber=01012341234
+- http http://ab399056093b4495f9f7940d3e95c4f9-305412969.ap-northeast-2.elb.amazonaws.com:8080/orders flowerName=Rose qty=7 address=seoul customerName=lee phoneNumber=01012341234
 
 2. delivery 확인
-- http http://a0b3b3575651b4e85922eb5bcb5840cf-455819388.ap-northeast-2.elb.amazonaws.com:8080/deliveries
+- http http://ab399056093b4495f9f7940d3e95c4f9-305412969.ap-northeast-2.elb.amazonaws.com:8080/deliveries
 
 3. shipped 하기
-- http PATCH http://a0b3b3575651b4e85922eb5bcb5840cf-455819388.ap-northeast-2.elb.amazonaws.com:8080/deliveries/2 status="DeliveryStart"
+- http PATCH http://ab399056093b4495f9f7940d3e95c4f9-305412969.ap-northeast-2.elb.amazonaws.com:8080/deliveries/2 status="DeliveryStart"
 
 4. mypage 실행
-- http http://a0b3b3575651b4e85922eb5bcb5840cf-455819388.ap-northeast-2.elb.amazonaws.com:8080/mypages
+- http http://ab399056093b4495f9f7940d3e95c4f9-305412969.ap-northeast-2.elb.amazonaws.com:8080/mypages
 
 5. cancel하기
-- http PATCH http://a0b3b3575651b4e85922eb5bcb5840cf-455819388.ap-northeast-2.elb.amazonaws.com:8080/orders/1 status="OrderCancelled"
+- http PATCH http://ab399056093b4495f9f7940d3e95c4f9-305412969.ap-northeast-2.elb.amazonaws.com:8080/orders/1 status="OrderCancelled"
 
 6. CI/CD, readiness/liveness 구현
 - buildspec, codebuild 적용
