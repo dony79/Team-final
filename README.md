@@ -33,14 +33,11 @@
 
 
 7. seige 테스트
-(httpie 실행)
-kubectl exec -it pod/httpie -n istio-cb-ns -c httpie -- /bin/bash
-
-(siege 실행 넣기)
-siege -c100 -t30S -v --content-type "application/json" 'http://order:8080/orders POST {"flowerName":"AAAA","qty":5}'
+- (httpie 실행) kubectl exec -it pod/httpie -n istio-cb-ns -c httpie -- /bin/bash
+- (siege 실행 넣기) siege -c100 -t30S -v --content-type "application/json" 'http://order:8080/orders POST {"flowerName":"AAAA","qty":5}'
 
 8. Jaeger / Kiali 모니터링 
-*Jaeger
+- Jaeger
 http://a754bd45eff4d4b72af3ccbf2987bf6c-1373967310.ap-northeast-2.elb.amazonaws.com:16686
-*Kiali
+- Kiali
 http://ae72f8a7283174456888fb7236a765e9-1825562489.ap-northeast-2.elb.amazonaws.com:20001
