@@ -14,7 +14,7 @@
 <img width="1920" alt="스크린샷 2020-09-16 오전 8 56 38" src="https://user-images.githubusercontent.com/29944530/93278534-ee013880-f7ff-11ea-8787-86510a5ddacc.png">
 
 # 시연
--- order 하기
+- order 하기
 http http://a0b3b3575651b4e85922eb5bcb5840cf-455819388.ap-northeast-2.elb.amazonaws.com:8080/orders flowerName=Rose qty=7 address=seoul customerName=lee phoneNumber=01012341234
 
 
@@ -29,6 +29,6 @@ http PATCH http://a0b3b3575651b4e85922eb5bcb5840cf-455819388.ap-northeast-2.elb.
 - mypage 실행
 http http://a0b3b3575651b4e85922eb5bcb5840cf-455819388.ap-northeast-2.elb.amazonaws.com:8080/mypages
 
--- cancel하기.
+- cancel하기
 http PATCH http://a0b3b3575651b4e85922eb5bcb5840cf-455819388.ap-northeast-2.elb.amazonaws.com:8080/orders/1 status="OrderCancelled"
 
