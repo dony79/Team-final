@@ -15,6 +15,9 @@
 # 이벤트스토밍
 <img width="1920" alt="스크린샷 2020-09-16 오전 8 56 38" src="https://user-images.githubusercontent.com/29944530/93278534-ee013880-f7ff-11ea-8787-86510a5ddacc.png">
 
+![feignclient 캡처](https://user-images.githubusercontent.com/60597630/93294171-c7a1c400-f824-11ea-940b-2b9af777f7d1.JPG)
+
+
 # 시연
 1. order 하기
 - http http://ab399056093b4495f9f7940d3e95c4f9-305412969.ap-northeast-2.elb.amazonaws.com:8080/orders flowerName=Rose qty=7 address=seoul customerName=lee phoneNumber=01012341234
