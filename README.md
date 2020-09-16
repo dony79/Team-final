@@ -34,15 +34,15 @@
 - (httpie 실행) kubectl exec -it pod/httpie -n istio-cb-ns -c httpie -- /bin/bash
 - (siege 실행 넣기) siege -c100 -t30S -v --content-type "application/json" 'http://order:8080/orders POST {"flowerName":"AAAA","qty":5}'
 
-7. Jaeger / Kiali 모니터링 
-- Jaeger
-http://a754bd45eff4d4b72af3ccbf2987bf6c-1373967310.ap-northeast-2.elb.amazonaws.com:16686
-- Kiali
-http://ae72f8a7283174456888fb7236a765e9-1825562489.ap-northeast-2.elb.amazonaws.com:20001
-
+7. circuit breaker 적용
+-
 
 8. autoscale 적용
 - pod 1개
 ![autoscale-before](https://user-images.githubusercontent.com/60597630/93286459-45a89f80-f812-11ea-92ff-c260ea110bbe.JPG)
 - 부하 발생시 pod 2개로 증가
 ![autoscale-after](https://user-images.githubusercontent.com/60597630/93286455-45100900-f812-11ea-921f-8080af36f499.JPG)
+
+9. Jaeger 모니터링 적용 (http://a754bd45eff4d4b72af3ccbf2987bf6c-1373967310.ap-northeast-2.elb.amazonaws.com:16686)
+
+10. Kiali 모니터링 (http://ae72f8a7283174456888fb7236a765e9-1825562489.ap-northeast-2.elb.amazonaws.com:20001)
