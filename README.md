@@ -47,7 +47,7 @@
 
 6. autoscale 적용
 <img width="467" alt="auto" src="https://user-images.githubusercontent.com/29944530/93428013-bbd40180-f8f9-11ea-9ac1-99373100f9ab.png">
+<img width="918" alt="autoscaling" src="https://user-images.githubusercontent.com/29944530/93428601-b75c1880-f8fa-11ea-8b92-e559fd8fa670.png">
 
 7. poliglot
--
 <img width="761" alt="poliglot" src="https://user-images.githubusercontent.com/29944530/93425066-3a2da500-f8f4-11ea-8cf0-79b5379300eb.png">
