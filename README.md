@@ -21,11 +21,6 @@
 
 
 
-<img width="1525" alt="스크린샷 2020-09-17 오전 12 13 50" src="https://user-images.githubusercontent.com/29944530/93425076-3c8fff00-f8f4-11ea-9f86-01d4a6f9563f.png">
-
-<img width="1721" alt="스크린샷 2020-09-17 오후 12 41 01" src="https://user-images.githubusercontent.com/29944530/93425072-3b5ed200-f8f4-11ea-9c23-68697e696437.png">
-<img width="1221" alt="스크린샷 2020-09-17 오전 12 18 42" src="https://user-images.githubusercontent.com/29944530/93425074-3bf76880-f8f4-11ea-8467-23e4525be10e.png">
-
 
 # 기능
 1. order 하기
@@ -39,7 +34,15 @@
 <img width="1177" alt="testflow" src="https://user-images.githubusercontent.com/29944530/93425047-34d05a80-f8f4-11ea-898d-3b57b37c3156.png">
 <img width="1359" alt="reviewWrite" src="https://user-images.githubusercontent.com/29944530/93427496-de194f80-f8f8-11ea-9c4e-7aaf6822109d.png">
 
+4. SMS
+
+<img width="1525" alt="스크린샷 2020-09-17 오전 12 13 50" src="https://user-images.githubusercontent.com/29944530/93425076-3c8fff00-f8f4-11ea-9f86-01d4a6f9563f.png">
+
+<img width="1721" alt="스크린샷 2020-09-17 오후 12 41 01" src="https://user-images.githubusercontent.com/29944530/93425072-3b5ed200-f8f4-11ea-9c23-68697e696437.png">
+<img width="1221" alt="스크린샷 2020-09-17 오전 12 18 42" src="https://user-images.githubusercontent.com/29944530/93425074-3bf76880-f8f4-11ea-8467-23e4525be10e.png">
+
 4.Feingclient
+
 <img width="467" alt="foreign" src="https://user-images.githubusercontent.com/29944530/93427486-da85c880-f8f8-11ea-9c19-f7f631d79b01.png">
 
 5. CI/CD 구현
