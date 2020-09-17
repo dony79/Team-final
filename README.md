@@ -47,10 +47,6 @@
 
 6. autoscale 적용
 <img width="467" alt="auto" src="https://user-images.githubusercontent.com/29944530/93428013-bbd40180-f8f9-11ea-9ac1-99373100f9ab.png">
-- pod 1개
-![autoscale-before](https://user-images.githubusercontent.com/60597630/93286459-45a89f80-f812-11ea-92ff-c260ea110bbe.JPG)
-- 부하 발생시 pod 2개로 증가
-![autoscale-after](https://user-images.githubusercontent.com/60597630/93286455-45100900-f812-11ea-921f-8080af36f499.JPG)
 
 7. poliglot
 -
