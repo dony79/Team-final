@@ -47,7 +47,6 @@
 
 4. CI/CD, readiness/liveness 구현
 - buildspec, codebuild 적용
-<img width="1359" alt="deliverystart" src="https://user-images.githubusercontent.com/29944530/93426212-8e398900-f8f6-11ea-97d8-80dbf50fffa5.png">
 
 5. autoscale 적용
 - pod 1개
