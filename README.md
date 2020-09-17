@@ -45,10 +45,14 @@
 
 <img width="467" alt="foreign" src="https://user-images.githubusercontent.com/29944530/93427486-da85c880-f8f8-11ea-9c19-f7f631d79b01.png">
 
-4. CI/CD, readiness/liveness 구현
+4. CI/CD 구현
 - buildspec, codebuild 적용
 
+<img width="2408" alt="Codebuild" src="https://user-images.githubusercontent.com/29944530/93427744-4a944e80-f8f9-11ea-958f-5389b43e53af.png">
+
 5. autoscale 적용
+
+
 - pod 1개
 ![autoscale-before](https://user-images.githubusercontent.com/60597630/93286459-45a89f80-f812-11ea-92ff-c260ea110bbe.JPG)
 - 부하 발생시 pod 2개로 증가
