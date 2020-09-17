@@ -17,11 +17,22 @@
 - 주문상태가 바뀔 때 SMS로 알림을 보낸다
 
 # 이벤트스토밍
-<img width="1920" alt="스크린샷 2020-09-16 오전 8 56 38" src="https://user-images.githubusercontent.com/29944530/93278534-ee013880-f7ff-11ea-8787-86510a5ddacc.png">
+<img width="1825" alt="eventstorming" src="https://user-images.githubusercontent.com/29944530/93425063-39950e80-f8f4-11ea-8ab3-26806c81329e.png">
 
-# 시연
+<img width="1177" alt="testflow" src="https://user-images.githubusercontent.com/29944530/93425047-34d05a80-f8f4-11ea-898d-3b57b37c3156.png">
+<img width="1177" alt="스크린샷 2020-09-17 오후 1 42 12" src="https://user-images.githubusercontent.com/29944530/93425058-3863e180-f8f4-11ea-824f-66db0a7a1d1e.png">
+
+<img width="1525" alt="스크린샷 2020-09-17 오전 12 13 50" src="https://user-images.githubusercontent.com/29944530/93425076-3c8fff00-f8f4-11ea-9f86-01d4a6f9563f.png">
+
+<img width="761" alt="poliglot" src="https://user-images.githubusercontent.com/29944530/93425066-3a2da500-f8f4-11ea-8cf0-79b5379300eb.png">
+<img width="1721" alt="SMS" src="https://user-images.githubusercontent.com/29944530/93425070-3ac63b80-f8f4-11ea-89be-63857b12d5fa.png">
+<img width="1721" alt="스크린샷 2020-09-17 오후 12 41 01" src="https://user-images.githubusercontent.com/29944530/93425072-3b5ed200-f8f4-11ea-9c23-68697e696437.png">
+<img width="1221" alt="스크린샷 2020-09-17 오전 12 18 42" src="https://user-images.githubusercontent.com/29944530/93425074-3bf76880-f8f4-11ea-8467-23e4525be10e.png">
+
+
+# 기능
 1. order 하기
-- http http://ab399056093b4495f9f7940d3e95c4f9-305412969.ap-northeast-2.elb.amazonaws.com:8080/orders flowerName=Rose qty=7 address=seoul customerName=lee phoneNumber=01012341234
+- 
 
 ![order 캡쳐](https://user-images.githubusercontent.com/60597630/93294322-2109f300-f825-11ea-983a-75d9d47b34eb.JPG)
 ![order 캡쳐2](https://user-images.githubusercontent.com/60597630/93294330-223b2000-f825-11ea-94f4-fce9b5ac5af2.JPG)
