@@ -37,26 +37,18 @@
 ![order 캡쳐](https://user-images.githubusercontent.com/60597630/93294322-2109f300-f825-11ea-983a-75d9d47b34eb.JPG)
 ![order 캡쳐2](https://user-images.githubusercontent.com/60597630/93294330-223b2000-f825-11ea-94f4-fce9b5ac5af2.JPG)
 
-2. delivery 확인
-- http http://ab399056093b4495f9f7940d3e95c4f9-305412969.ap-northeast-2.elb.amazonaws.com:8080/deliveries
+2. shipped 하기
+- 
+<img width="1359" alt="deliverystart" src="https://user-images.githubusercontent.com/29944530/93426212-8e398900-f8f6-11ea-97d8-80dbf50fffa5.png">
 
-3. shipped 하기
-- http PATCH http://ab399056093b4495f9f7940d3e95c4f9-305412969.ap-northeast-2.elb.amazonaws.com:8080/deliveries/2 status="DeliveryStart"
-
-4. mypage 실행
-- http http://ab399056093b4495f9f7940d3e95c4f9-305412969.ap-northeast-2.elb.amazonaws.com:8080/mypages
-
-5. cancel하기
-- http PATCH http://ab399056093b4495f9f7940d3e95c4f9-305412969.ap-northeast-2.elb.amazonaws.com:8080/orders/1 status="OrderCancelled"
-
-6.Feingclient
+3.Feingclient
 
 ![feignclient 캡처](https://user-images.githubusercontent.com/60597630/93294171-c7a1c400-f824-11ea-940b-2b9af777f7d1.JPG)
 
+
 7. CI/CD, readiness/liveness 구현
 - buildspec, codebuild 적용
-![buildspec](https://user-images.githubusercontent.com/60597630/93287560-c9638b80-f814-11ea-9c9b-f5ac701809e6.JPG)
-![cicd](https://user-images.githubusercontent.com/60597630/93287562-ca94b880-f814-11ea-8d12-81127393512e.JPG)
+
 
 8. circuit breaker 적용
 - siege -c50 -t30S  -v --content-type "application/json" 'http://order:8080/orders POST {"flowerName":"AAAA","qty":5}' 으로 테스트
