@@ -20,7 +20,6 @@
 <img width="1825" alt="eventstorming" src="https://user-images.githubusercontent.com/29944530/93425063-39950e80-f8f4-11ea-8ab3-26806c81329e.png">
 
 
-<img width="1177" alt="스크린샷 2020-09-17 오후 1 42 12" src="https://user-images.githubusercontent.com/29944530/93425058-3863e180-f8f4-11ea-824f-66db0a7a1d1e.png">
 
 <img width="1525" alt="스크린샷 2020-09-17 오전 12 13 50" src="https://user-images.githubusercontent.com/29944530/93425076-3c8fff00-f8f4-11ea-9f86-01d4a6f9563f.png">
 
