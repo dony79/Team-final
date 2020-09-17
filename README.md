@@ -19,7 +19,7 @@
 # 이벤트스토밍
 <img width="1825" alt="eventstorming" src="https://user-images.githubusercontent.com/29944530/93425063-39950e80-f8f4-11ea-8ab3-26806c81329e.png">
 
-<img width="1177" alt="testflow" src="https://user-images.githubusercontent.com/29944530/93425047-34d05a80-f8f4-11ea-898d-3b57b37c3156.png">
+
 <img width="1177" alt="스크린샷 2020-09-17 오후 1 42 12" src="https://user-images.githubusercontent.com/29944530/93425058-3863e180-f8f4-11ea-824f-66db0a7a1d1e.png">
 
 <img width="1525" alt="스크린샷 2020-09-17 오전 12 13 50" src="https://user-images.githubusercontent.com/29944530/93425076-3c8fff00-f8f4-11ea-9f86-01d4a6f9563f.png">
@@ -30,16 +30,14 @@
 
 # 기능
 1. order 하기
-- 
 ![order 캡쳐](https://user-images.githubusercontent.com/60597630/93294322-2109f300-f825-11ea-983a-75d9d47b34eb.JPG)
 ![order 캡쳐2](https://user-images.githubusercontent.com/60597630/93294330-223b2000-f825-11ea-94f4-fce9b5ac5af2.JPG)
 
 2. shipped 하기
-- 
 <img width="1359" alt="deliverystart" src="https://user-images.githubusercontent.com/29944530/93426212-8e398900-f8f6-11ea-97d8-80dbf50fffa5.png">
 
 3. reviewRequested, reviewWrite
-
+<img width="1177" alt="testflow" src="https://user-images.githubusercontent.com/29944530/93425047-34d05a80-f8f4-11ea-898d-3b57b37c3156.png">
 <img width="1359" alt="reviewWrite" src="https://user-images.githubusercontent.com/29944530/93427496-de194f80-f8f8-11ea-9c4e-7aaf6822109d.png">
 
 
