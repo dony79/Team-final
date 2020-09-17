@@ -24,7 +24,6 @@
 
 <img width="1525" alt="스크린샷 2020-09-17 오전 12 13 50" src="https://user-images.githubusercontent.com/29944530/93425076-3c8fff00-f8f4-11ea-9f86-01d4a6f9563f.png">
 
-<img width="1721" alt="SMS" src="https://user-images.githubusercontent.com/29944530/93425070-3ac63b80-f8f4-11ea-89be-63857b12d5fa.png">
 <img width="1721" alt="스크린샷 2020-09-17 오후 12 41 01" src="https://user-images.githubusercontent.com/29944530/93425072-3b5ed200-f8f4-11ea-9c23-68697e696437.png">
 <img width="1221" alt="스크린샷 2020-09-17 오전 12 18 42" src="https://user-images.githubusercontent.com/29944530/93425074-3bf76880-f8f4-11ea-8467-23e4525be10e.png">
 
@@ -38,6 +37,9 @@
 2. shipped 하기
 - 
 <img width="1359" alt="deliverystart" src="https://user-images.githubusercontent.com/29944530/93426212-8e398900-f8f6-11ea-97d8-80dbf50fffa5.png">
+
+3. reviewRequested, reviewWrite
+
 
 3.Feingclient
 
