@@ -40,10 +40,12 @@
 
 3. reviewRequested, reviewWrite
 
+<img width="1359" alt="reviewWrite" src="https://user-images.githubusercontent.com/29944530/93427496-de194f80-f8f8-11ea-9c4e-7aaf6822109d.png">
+
 
 3.Feingclient
 
-![feignclient 캡처](https://user-images.githubusercontent.com/60597630/93294171-c7a1c400-f824-11ea-940b-2b9af777f7d1.JPG)
+<img width="467" alt="foreign" src="https://user-images.githubusercontent.com/29944530/93427486-da85c880-f8f8-11ea-9c19-f7f631d79b01.png">
 
 4. CI/CD, readiness/liveness 구현
 - buildspec, codebuild 적용
